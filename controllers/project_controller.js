@@ -38,11 +38,9 @@ getProject = function(req, res){
 										vision: project.vision,
 										w1: "../images/" + wireframes[0],
 										w2: "../images/" + wireframes[1],
-										w3: "../images/" + wireframes[2],
-										w4: "../images/" + wireframes[3],
 										s1: "../images/" + screenshots[0],
 										s2: "../images/" + screenshots[1],
 										s3: "../images/" + screenshots[2],
 										s4: "../images/" + screenshots[3],
-										 });
+	});
 }
