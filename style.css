@@ -1,0 +1,103 @@
+
+
+body {
+    margin-bottom:10%;
+
+}
+
+h1 {
+	font-family: 'Lora', serif;
+}
+
+h4, h5 {
+	font-family: 'Lora', serif;
+	font-weight:bold;
+}
+
+p, li {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight:bold;
+}
+
+a:hover{
+}
+
+.navbar {
+	margin-bottom: 5%;
+}
+
+img {
+	width:100%;
+}
+
+.card {
+	margin: 3%;
+}
+
+.cardbody{
+	text-align: center;
+}
+
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    margin-top:4%;
+}
+
+.carousel-caption h4{
+	color:black;
+}
+
+.carousel-caption p{
+	color:black;
+}
+
+.carousel {
+
+  margin:5%;
+
+}
+.carousel li {
+}
+
+
+#semester{
+	margin:2%;
+}
+
+#project-carousel {
+	height: 75%;
+	width: 75%;
+}
+
+#project-back {
+	text-align:left;
+}
+
+#project-summary{
+	text-align: left;
+	margin: 2%;
+}
+
+.btn-sm {
+}
+
+.btn{
+	
+}
+
+@media only screen and (max-width: 1000px){
+	.col-md-6{
+		width:100%;
+  		height:auto;
+	}
+}
+
+
+

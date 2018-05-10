@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/erindieringer/240Site#readme",
   "dependencies": {
+    "convert-csv-to-json": "0.0.13",
+    "csvtojson": "^1.1.9",
     "ejs": "^2.5.9",
     "express": "^4.16.3",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "utf8": "^3.0.0"
   }
 }
