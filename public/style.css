@@ -5,6 +5,7 @@ body {
     padding-top:7%;
 }
 
+
 h1 {
 	font-family: 'Lora', serif;
 	font-size: 3em;
@@ -25,10 +26,19 @@ a {
 }
 
 a:hover{
+	color: #b11a21;
 }
 
 .navbar {
 	margin-bottom: 5%;
+	background-color: #f1f0ee;
+}
+.nav-link{
+	color: #e0474c;
+}
+
+.nav-link.active{
+	color: #b11a21;
 }
 
 img {
@@ -36,12 +46,20 @@ img {
 }
 
 .card {
-	margin: 3%;
-}
+	margin: 4%;
+	background-color:#f1f0ee;
+	border:0.5;
+}	
+
 
 .cardbody{
 	text-align: center;
 }
+
+.cardbody p,h5 {
+/*	color:white;*/
+}
+
 
 
 .carousel-caption {
@@ -103,12 +121,71 @@ img {
     width: 100%;
     height: 20vw;
     object-fit: cover;
+    align:center;
+
+
+}
+#card-img-id {
+	
 }
 
 @media only screen and (max-width: 575px){
 	.card {
-		width:60%;
+		width:80% !important;
 	}
+	.card-img-top {
+		display:none;
+	}
+	#project-title-card{
+		display:none;
+	}
+	.navbar{
+	    margin-bottom:15%;
+	}
+	body {
+		padding-top:17% !important;
+	}
+	h1 {
+		font-size: 2.5em;
+		margin:5%;
+	}
+	p, h4 {
+		margin:5%;
+	}
+	#project-carousel {
+		display:none !important;;
+	}
+
+
 }
+
+@media only screen and (max-width: 1000px) {
+	body {
+		padding-top:10% ;
+	}
+	.card-img-top {
+	    height: 30vw;
+	 }
+	#project-carousel {
+		height: 80%;
+		width: 80%;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	#card-title {
+		font-size: 2.5em;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	#project-carousel {
+		height: 90%;
+		width: 90%;
+	}
+
+}
+
 
 
