@@ -94,6 +94,10 @@ img {
 	height: 65%;
 	width: 65%;
 }
+#project-show-carousel{
+	height: 65%;
+	width: 65%;
+}
 
 #project-back {
 	text-align:left;
@@ -106,14 +110,14 @@ img {
 
 .carousel-control-prev-icon {
  	background-image: url("images/prev.png") !important;
- 	width:50px;
- 	height:50px;
+ 	width:2.5em;
+ 	height:2.5em;
 }
 
 .carousel-control-next-icon {
   	background-image: url("images/next.png") !important;
- 	width:50px;
- 	height:50px;
+ 	width:2.5em;
+ 	height:2.5em;
 
 }
 
@@ -150,10 +154,14 @@ img {
 		margin:5%;
 	}
 	p, h4 {
-		margin:5%;
+		margin:2%;
 	}
 	#project-carousel {
-		display:none !important;;
+		display:none !important;
+	}
+	#project-show-carousel {
+		height: 90% !important;
+		width: 90% !important;
 	}
 
 
@@ -170,6 +178,11 @@ img {
 		height: 80%;
 		width: 80%;
 	}
+	#project-show-carousel {
+		height: 80%;
+		width: 80%;
+	}
+
 
 }
 
@@ -183,6 +196,10 @@ img {
 	#project-carousel {
 		height: 90%;
 		width: 90%;
+	}
+	#project-show-carousel {
+		height: 95%;
+		width: 95%;
 	}
 
 }
