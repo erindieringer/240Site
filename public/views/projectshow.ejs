@@ -17,16 +17,16 @@
 
 <body>
 	<header>
-		<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
 			 <div class="container">
 				<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 	            <span class="navbar-toggler-icon"></span>
 	            </button>
-			  	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+			  	<div class="collapse navbar-collapse navbar-light" id="navbarsExampleDefault">
 			    	<div class="navbar-nav">
-			      		<a class="nav-item nav-link" href="/" id="nav-home">67-240</a>
-			      		<a class="nav-item nav-link active" href="/projects">Projects <span class="sr-only">(current)</span></a>
-			      		<a class="nav-item nav-link" href="/syllabus">Syllabus</a>
+			      		<a class="nav-item nav-link" href="/" id="nav-home">Home <span class="divider">|</span> </a>
+			      		<a class="nav-item nav-link active" href="/projects">Projects <span class="divider">|</span></a>
+			      		<a class="nav-item nav-link" href="/syllabus">Syllabus <span class="divider">|</span> </a>
 			      		<a class="nav-item nav-link" href="/speakers">Speakers</a>
 			    	</div>
 			  	</div>
@@ -35,7 +35,6 @@
 	</header>
 	<div class="container" align="center">
 		<h1 id="project-title"> <%= title %> </h1>
-
 		<div id="project-show-carousel" class="carousel slide" data-ride="carousel">
 		  	<ol class="carousel-indicators">
 		    	<li data-target="#project-show-carousel" data-slide-to="0" class="active"></li>
@@ -67,6 +66,7 @@
 			</a>
 		</div>
 		<div class="col-9" id="project-summary">
+			<hr>
 			<div class="row">
 				<p><b>Team: </b><%= team %> </p> 
 			</div>
