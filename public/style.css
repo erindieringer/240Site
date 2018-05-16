@@ -203,11 +203,8 @@ hr {
 		padding-top:17% !important;
 	}
 	h1 {
-		font-size: 2.5em;
+		font-size: 2em !important;
 		margin:5%;
-	}
-	p, h4 {
-		margin:2%;
 	}
 	#project-carousel {
 		display:none !important;
@@ -219,6 +216,20 @@ hr {
 	#card-line {
 		display:none;
 	}
+	#wireframes{
+		width:80%;
+		margin-left: 10%;
+		margin-bottom:10%;
+	}
+	p, li{
+		font-size: .85em;
+		margin:2%;
+	}
+	h4 {
+		font-size: 1.2em !important;
+		margin:2%;
+	}
+	
 
 
 }
@@ -241,7 +252,7 @@ hr {
 	.divider{
 		display:none;
 	}
-
+	
 
 }
 
@@ -260,6 +271,8 @@ hr {
 		height: 95%;
 		width: 95%;
 	}
+
+
 
 }
 
