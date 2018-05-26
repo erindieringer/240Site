@@ -24,7 +24,7 @@ h4 {
 p, li {
 	font-family: 'Nanum Gothic', sans-serif;
 	color: #101049;
-	
+	text-align:justify;
 }
 
 a {
@@ -66,6 +66,7 @@ a:hover{
 
 img {
 	width:100%;
+
 }
 
 .card {
@@ -122,8 +123,8 @@ hr {
 }
 
 #project-carousel {
-	height: 65%;
-	width: 65%;
+	height: 55%;
+	width: 55%;
 }
 #project-show-carousel{
 	height: 65%;
@@ -186,6 +187,19 @@ hr {
 	margin-left:10px;
 }
 
+#speaker-img {	
+	width:80%;
+
+}
+
+#names{
+	text-align: center;
+}
+
+#home-caption {
+	text-align: center !important;
+}
+
 @media only screen and (max-width: 575px){
 	.card {
 		width:80% !important;
@@ -229,6 +243,12 @@ hr {
 		font-size: 1.2em !important;
 		margin:2%;
 	}
+
+	#speaker-img {
+		width:40% !important;
+
+	}
+	
 	
 
 
@@ -252,6 +272,10 @@ hr {
 	.divider{
 		display:none;
 	}
+	#speaker-img {	
+		width:100% ;
+	}
+
 	
 
 }
@@ -271,6 +295,14 @@ hr {
 		height: 95%;
 		width: 95%;
 	}
+	#job-position {
+		font-size: .90em;
+	}
+	#speaker-desc {
+		font-size: .90em;
+	}
+
+	
 
 
 
